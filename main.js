@@ -386,6 +386,22 @@ const DIRECTORY = {
 		description: `The current longest-active writing reviewer and a GitHub moderator. Less involved in the community lately, but shows up every once in a while on both platforms.`,
 		quote: `"I was requested for spelling? Oh my goodness, this needs a rewrite..."`,
 	},
+	// BobbyCobby
+	bobbycobby: {
+		name: "BobbyCobby",
+		aka: {},
+		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/bobbycobby.png",
+		status: 0,
+		pronouns: "they/them",
+		country: "",
+		github: "https://github.com/BobbyCobby",
+		roles: ["Merchant"],
+		description: `A musician interested in composing for ES. On the Discord server but much more active on GitHub.`,
+		quote: `"I'd like to compose music for the game."`,
+		email: "",
+		discord: "main",
+		badges: ["quarg"],
+	},
 	// Corraban
 	corraban: {
 		name: "Corraban",
