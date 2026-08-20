@@ -390,7 +390,7 @@ const DIRECTORY = {
 	bobbycobby: {
 		name: "BobbyCobby",
 		aka: {},
-		avatar: "https://raw.githubusercontent.com/moctave/es-community-directory/main/img/avatars/bobbycobby.png",
+		avatar: "https://raw.githubusercontent.com/bobbycobby/es-community-directory/main/img/avatars/bobbycobby.png",
 		status: 0,
 		pronouns: "they/them",
 		country: "",
