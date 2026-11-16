@@ -400,7 +400,7 @@ const DIRECTORY = {
 		quote: `"I really wanted to also make the LLM code gravity so battles involve Hohmann Transfers."`,
 		email: "",
 		discord: "main",
-		badges: ["quarg"],
+		badges: ["quarg", "archon"],
 	},
 	// Corraban
 	corraban: {
