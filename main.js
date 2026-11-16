@@ -1393,7 +1393,7 @@ function makeDirectoryCard(obj, id) {
 		if (obj.aka.steam) {
 			akaLabels += `<span class="aka-label"><span class="fa-brands fa-steam"></span>&nbsp;${obj.aka.steam}</span>`;
 		}
-		
+
 		card = card.replaceAll("$AKA-LABELS$", akaLabels);
 
 	} catch {
@@ -1407,7 +1407,7 @@ function makeDirectoryCard(obj, id) {
 		let roleDesc = "";
 		for (role of obj.roles) {
 			const roleClass = ROLE_INFO[role] ? ROLE_INFO[role].class : "other-role";
-			const roleTooltip = ROLE_INFO[role] ? ROLE_INFO[role].tooltip 
+			const roleTooltip = ROLE_INFO[role] ? ROLE_INFO[role].tooltip
 				: "This role is not properly defined! Please report this bug.";
 			if (!noRoleAdded)
 				roleDesc += " • ";
@@ -1429,7 +1429,7 @@ function makeDirectoryCard(obj, id) {
 		console.warn(`No valid description for "${id}"...`);
 		card = card.replaceAll("$DESCRIPTION$", "A member of the Endless Sky community.");
 	}
-		
+
 
 	// Quote
 	if (obj.quote) {
